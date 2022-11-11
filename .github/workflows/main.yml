@@ -12,4 +12,4 @@ jobs:
         run : echo "This workflow runs successfully"
         
       - name: Simulating error in github action 
-        run: echo "Simulating error in github action"; exit 1
+        run: echo "Simulating error in github action"; #exit 1
